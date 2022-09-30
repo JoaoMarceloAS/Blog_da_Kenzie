@@ -1,4 +1,5 @@
 Link pra HTML: https://joaomarceloas.github.io/Blog_da_Kenzie/
+
 🏁 Entrega: Blog Kenzie HTML
 Importante!
 Lembre-se de que essa entrega é individual e qualquer suspeita de plágio ou interferência na entrega de outro aluno pode ser questionada pela equipe de ensino.
