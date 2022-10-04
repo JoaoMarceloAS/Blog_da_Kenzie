@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+html{
+    scroll-behavior: smooth;
+  }
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.964);
+    color: white;
+}
+header{
+    background: rgba(0, 0, 0, 0.048);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    backdrop-filter: blur(10px);
+}
+ul{
+    display: contents;
+}
+section{
+    padding: 200px 100px;
+}
+section h2{
+    margin: 50px 35%;
+    font-size: 30px;
+}
+section article{
+    margin: 30px 200px;
+    text-align: justify;
+    font-size: 20px;
+}
+section p{
+    margin: 70px 30px;
+    padding-left: 59%;
+    font-size: 20px;
+}
+ul li{
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    transition-duration: 0.3s;
+}
+ul li a:hover{
+    color: #0000ff;
+}
+section a{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition-duration: 0.7s;
+    border: 2px solid;
+}
+section a:hover{
+    color: white;
+    background-color: #0000ff;
+}
+.titulo{
+    color: white;
+    margin: 5%;
+}
+span{
+    color: #0000ff;
+}
+footer{
+    padding: 40px;
+    background-color: black;
+}
+footer form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer form .div-2 label{
+   font-size: 25px;
+}
+.email{
+    width: 300px;
+    font-size: 20px;
+}
+footer form button{
+    transition-duration: 0.4s;
+    padding: 40px 90px;
+    font-size: 25px;
+    border: 3px solid;
+    border-radius: 60px;
+}
+footer form button:hover{
+    color: white;
+    background-color: #0000ff;
+}

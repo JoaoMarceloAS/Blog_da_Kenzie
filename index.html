@@ -11,13 +11,19 @@
 
 <body>
     <header>
-        <img src="./img/favicon.jpeg">
-        <h1>Blog da Kenzie</h1>
+        <img class="logo" src="./img/favicon-removebg-preview.png">
+        <ul>
+        <li><a href="#Artigo-1">Artigo 1</a></li>
+        <li><a href="#Artigo-2">Artigo 2</a></li>
+        <li><a href="#Artigo-3">Artigo 3</a></li>
+        <li><a href="#Artigo-4">Artigo 4</a></li>
+        </ul>
+        <h1 class="titulo">Blog da Ken<span>zie</span></h1>
     </header>
     <main>
         <!--Artigo 1-->
-        <section>
-            <h2>LINGUAGEM DE PROGRAMAÇÃO: O QUE É E QUAL LINGUAGEM APRENDER</h2>
+        <section id="Artigo-1" class="artigo-1">
+            <h2>LINGUAGEM DE PROGRAMAÇÃO: <span>O QUE É E QUAL LINGUAGEM APRENDER</span></h2>
             <article>As linguagens de programação foram criadas para solucionar qualquer tipo de problema na área
                 tecnológica computacional.
                 Acompanhando todas as tendências da tecnologia, elas estão sempre em constante evolução, buscando
@@ -25,33 +31,33 @@
                 as mais modernas ferramentas para as mais complexas tarefas.
                 Cada linguagem possui suas particularidades e, no conteúdo de hoje, conheceremos algumas delas e suas
                 principais aplicações.</article>
-            <p>Escrito por: Ugo Roveda</p>
-            <a href="https://kenzie.com.br/blog/linguagem-de-programacao/">Acesse o post aqui</a>
+            <p>Escrito por: <span>Ugo Roveda</span></p>
+            <a target="_blank" href="https://kenzie.com.br/blog/linguagem-de-programacao/">Acesse o post aqui</a>
         </section>
         <!--Artigo 2-->
-        <section>
-            <h2>CORES EM HEXADECIMAL CSS: PASSO A PASSO PARA APLICAR CORES NO HTML</h2>
+        <section id="Artigo-2" class="artigo-2">
+            <h2>CORES EM HEXADECIMAL CSS: <span>PASSO A PASSO PARA APLICAR CORES NO HTML</span></h2>
             <article>Em uma página web, normalmente utilizamos propriedades de documentos em formato CSS (Cascade Style
                 Sheet) para personalizar a aplicação, essas propriedades são das mais diversas. Um dos valores de
                 algumas dessas propriedades como background-color, color e etc., é definir uma cor, para isso, temos
                 várias formas de expressar o valor da cor, podemos defini-las pelo nome da cor, rgb passando os valores
                 como decimais, HSA, HSL ou com código hexadecimal.</article>
-            <p>Escrito por: Brunno Kriger</p>
-            <a href="https://kenzie.com.br/blog/cores-em-hexadecimal-css/">Acesse o post aqui</a>
+            <p>Escrito por: <span>Brunno Kriger</span></p>
+            <a target="_blank" href="https://kenzie.com.br/blog/cores-em-hexadecimal-css/">Acesse o post aqui</a>
         </section>
         <!--Artigo 3-->
-        <section>
-            <h2>COMO APRENDER A PROGRAMAR DO ZERO: PASSO A PASSO</h2>
+        <section id="Artigo-3" class="artigo-3">
+            <h2>COMO APRENDER A PROGRAMAR DO ZERO: <span>PASSO A PASSO</span></h2>
             <article>Quer entrar em um mercado de trabalho que não para de crescer, mas não sabe por onde começar? Pela
                 programação. A programação é uma das áreas que demandará quase 800 mil profissionais até 2025. Acompanhe
                 esse passo a passo até o final para aprender como programar do zero. Boa leitura!
             </article>
-            <p>Escrito por: Daniel Kriger</p>
-            <a href="https://kenzie.com.br/blog/como-aprender-a-programar-2/">Acesse o post aqui</a>
+            <p>Escrito por: <span>Daniel Kriger</span></p>
+            <a target="_blank" href="https://kenzie.com.br/blog/como-aprender-a-programar-2/">Acesse o post aqui</a>
         </section>
         <!--Artigo 4-->
-        <section>
-            <h2>ONDE ENCONTRAR DESENVOLVEDORES PARA A SUA VAGA</h2>
+        <section id="Artigo-4" class="artigo-4">
+            <h2>ONDE ENCONTRAR DESENVOLVEDORES <span>PARA A SUA VAGA</span></h2>
             <article>Contratar profissionais de desenvolvimento web é a parte mais significativa do sucesso dentro do
                 setor de TI de uma organização.
                 Seja uma contratação pontual para um projeto, ou uma contratação fixa e até mesmo um profissional de
@@ -61,18 +67,22 @@
                 conteúdo de hoje falaremos onde encontrá-los, como avaliá-los da melhor forma como, por consequência,
                 chegar aos melhores profissionais do mercado.
                 Continue sua leitura!</article>
-            <p>Escrito por: Ugo Roveda</p>
-            <a href="https://kenzie.com.br/blog/como-contratar-desenvolvedor/">Acesse o post aqui</a>
+            <p>Escrito por: <span>Ugo Roveda</span></p>
+            <a target="_blank" href="https://kenzie.com.br/blog/como-contratar-desenvolvedor/">Acesse o post aqui</a>
         </section>
     </main>
     <footer>
         <form>
-            <h3>Oque achou do conteúdo? Foi útil</h3>
-            <input type="checkbox" name="sim">
-            <label for="sim">Marque caso tenha achado útil</label>
-            <h4>Preencha com seu email para receber mais notícias</h4>
-            <label for="email">Email:</label>
-            <input type="email" name="email" placeholder="Digite seu email aqui" required>
+            <div class="div-1">
+                <h3>Oque achou do conteúdo? Foi útil</h3>
+                <input class="checkbox" type="checkbox" name="sim">
+                <label for="sim">Marque caso tenha achado útil</label>
+            </div>
+            <div class="div-2">
+                <h4>Preencha com seu email para receber mais notícias</h4>
+                <label for="email">Email:</label>
+                <input class="email" type="email" name="email" placeholder="Digite seu email aqui" required>
+            </div>
             <button>Receber newsletter</button>
         </form>
     </footer>
