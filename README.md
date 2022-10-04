@@ -56,4 +56,3 @@ Esta linha é a importação da fonte do google fonts. Este site possui um acerv
 Agora, basta inserir o seguinte código na seleção do body na sua folha de estilo.
 
 font-family: 'Roboto', sans-serif;
-<img src="https://kenzie-content.vercel.app/cl8af7j116mt30bludlhzh8na?m1#">
